@@ -42,4 +42,3 @@ while turn < 10
   turn += 1
   end
 end
-
