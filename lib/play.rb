@@ -36,12 +36,6 @@ def turn(board)
 end
 
 def play(board)
-(1..9).each do |turn|
- if turn % 1 == 0
-   puts "X"
- elsif turn %  2 == 1
-   puts "O"
- else
-   puts nil
-   end
+9.times { |turn| puts "#{turn}"}
 end
+ 
