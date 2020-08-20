@@ -40,5 +40,6 @@ turn = 0
 while turn < 10
   puts turn
   turn += 1
+ return(board)
   end
 end
