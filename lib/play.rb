@@ -36,5 +36,8 @@ def turn(board)
 end
 
 def play(board)
-9.times { |turn| puts "#{turn}"}
+turn = 0 
+while turn < 10
+  puts turn
+  turn += 1
 end
