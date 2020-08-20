@@ -38,4 +38,3 @@ end
 def play(board)
 9.times { |turn| puts "#{turn}"}
 end
- 
