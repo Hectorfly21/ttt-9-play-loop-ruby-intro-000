@@ -40,5 +40,6 @@ turn = 0
 until turn == 9
   turn += 1
   puts "#{turn}"
+  turn(board)
   end
 end
